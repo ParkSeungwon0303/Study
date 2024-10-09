@@ -2,8 +2,10 @@ package study.quiz2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Objects;
 
 public class Student {
+    static int num;
     ArrayList<Integer> score = new ArrayList<>(3);
     HashMap<String, ArrayList> studentScore = new HashMap<>();
 
